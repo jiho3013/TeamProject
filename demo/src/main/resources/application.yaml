@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: test
+    password: test
+  servlet:
+    multipart:
+      maxFileSize: 10GB
+      maxRequestSize: 100GB
+      location: C:/Users/jiho3/IdeaProjects/TeamProject/demo/img/
+
+server:
+  port: 8080
+  address: localhost
